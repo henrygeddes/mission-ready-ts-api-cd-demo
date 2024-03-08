@@ -6,5 +6,5 @@ env.config()
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
   console.log(`server starterd on port ${PORT}`);
-  console.log('Hello world');
+  console.log('runner pls work');
 })
