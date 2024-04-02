@@ -1,0 +1,10 @@
+name: mission-ready
+services:
+  mission-ready-web-server:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./src:/src
+
+  
